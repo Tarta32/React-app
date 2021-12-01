@@ -8,7 +8,7 @@ function Horloge(props) {
         let n
         setInterval(()=>{
             setDate(new Date)
-        }, 1000)
+        }, 500)
         setnumInt(n)
         return () => {
             clearInterval(numInt)

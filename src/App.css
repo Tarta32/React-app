@@ -7,6 +7,13 @@
   width: 150px;
   text-align: center;
   background-color: rgb(170, 108, 63);
+  transition: 500ms;
+  transform: rotateZ(180deg);
+}
+
+.carte:hover{
+  transform: scale(105%);
+  transition: 500ms;
 }
 
 .carte h3{
@@ -36,6 +43,6 @@
   text-decoration: 0;
 }
 
-button:hover {
+.compteur button:hover {
   cursor: pointer;
 }
